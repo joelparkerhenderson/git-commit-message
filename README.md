@@ -41,16 +41,26 @@ We agree on a short list of leading active verbs:
 
 * Document = Refactor of documentation, e.g. help files.
 
+
+## Reasoning
+
 We primarily care that our team communicates effectively with our shared understanding. 
 
 We secondarily like these verbs above because they're easy to read, easy to type, and clear in many cultures.
 
 If you and your team prefer other words, that's fine too; use what works for you.
 
+
+## Rejecting
+
 We do reject some kinds of git commit message formats. For example, we reject messages that start with a leading tag, or flag, or abbreviation, or link, or tracking number, such as any of these styles:
 
+* docs: ...
 * [bug] ...
 * (release) ...
 * #12345 ...
 * jira://...
 * docs: ...
+
+We do reject the typical commit style of projets such as Angular, Commitizen defaults, etc., because these use a leading tag that is sometimes a word, sometimes an abbreviation, sometimes a plural noun, etc. (such as "feat" for feature, "docs" for document, "perf" for improving performance, etc.)
+
