@@ -15,17 +15,17 @@ How to write a great Git commit message:
 
 Title examples of good commit messages:
 
-  * Add feature for foobar
-  * Drop feature for foobar
-  * Fix bug when foobar is missing
-  * Bump version of foobar dependency
-  * Make foobar integration script
-  * Start foobar feature flag
-  * Stop foobar feature flag
-  * Refactor foobar for clarity
-  * Reformat foobar to remove whitespace
-  * Optimize foobar for speed and memory
-  * Document foobar protocol
+  * Add feature for foo
+  * Drop feature for foo
+  * Fix bug when foo is missing
+  * Bump version of foo dependency
+  * Make foo integration script
+  * Start foo feature flag
+  * Stop foo feature flag
+  * Refactor foo for clarity
+  * Reformat foo to remove whitespace
+  * Optimize foo for speed and memory
+  * Document foo protocol
 
 
 ## Specifics
@@ -119,3 +119,62 @@ We reject using an id number or URL in the title.
   * This is because many of our projects use multiple tracking systems, and multiple ways of launching a URL. 
 
   * We want URL tracking to be easy to use by a wide range of systems, scripts, and teams.
+
+
+## Optional: use contact email addresses
+
+We sometimes have more than one person working on a commit. For example, we do do pair programming.
+
+To keep track of this, we write a git commit message body that lists each person's email address, and we use the same convention as email headers.
+
+Example:
+
+    Add feature foo
+
+    From: alice@eaxmple.com
+    From: bob@example.com
+    From: carol@example.com
+    
+To make this easy in practice, we use a git template that helps fill in this info.
+
+
+## Optional: use task tracking links
+
+We sometimes connect a git commit to a task tracking system. For example, we use GitHub, Trello, Jira, and many other bug tracking systems and project management software systems.
+
+To keep track of these, we use a git commit message body that lists each URL as a "CC" line, and we use the same convention as email headers.
+
+Example:
+
+    Add feature foo
+
+    CC: https://github.com/user/repo/issues/789
+    CC: https://jira.com/tasks/123
+    CC: https://trello.com/projects/456
+
+To make this easy in practice, we use a git template that helps fill in this info.
+
+
+## Optional: use keywords, importance, references, etc.
+
+We like to use commit message keywords to help us skim, search, and prioritize.
+
+To keep track of these, we write a git commit message body that uses email header conventions.
+
+Example:
+
+    Fix foo
+
+    Keywords: security, encryption, authentication
+    Importance: high
+    References: ...
+    Supersedes: ...
+    Obsoletes: ...
+    See-Also: ...
+
+We use some of these to help our teams focus on the most important work.
+
+  * When a commit message says "Importance: high" then it gets priority for code review and also for testing on the continuous integration server.
+
+  * When a commit message says "Supersedes", "References", "Obsoletes", then we can easily look up the earlier commits or URLs.
+
