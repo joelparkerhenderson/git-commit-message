@@ -2,18 +2,23 @@
 
 How to write a great Git commit message:
 
-1. Begin the commit message with a short title that summarizes the change, followed by a blank line, then a more thorough description. 
+1. Begin the commit message with a short title that summarizes the change.
 
-2. Start the title with an imperative: Add, Fix, Optimize, etc.
+2. Start the title with an imperative present active verb: Add, Fix, Optimize, etc.
 
-3. Keep the title short: up to 50 characters and no end period.
+3. Format the title: start with a capital word, use up to 50 characters, and end without a period.
 
-Title examples:
+4. Optionally follow the title by a blank line, then a more thorough description. 
+
+
+## Title examples
+
+Title examples of good commit messages:
 
   * Add feature for foobar
   * Drop feature for foobar
-  * Fix bug when foobar is blank
-  * Bump version of foobar parsing library
+  * Fix bug when foobar is missing
+  * Bump version of foobar dependency
   * Make foobar integration script
   * Start foobar feature flag
   * Stop foobar feature flag
