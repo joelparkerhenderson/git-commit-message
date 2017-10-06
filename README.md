@@ -1,45 +1,81 @@
 # Git commit message
 
-How to write a good git commit message that people can read and tools can parse.
+How to write a great Git commit message:
 
-First read [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
+1. Begin the commit message with a short title that summarizes the change, followed by a blank line, then a more thorough description. 
 
-The seven rules of a great Git commit message:
+2. Start the title with an imperative: Add, Fix, Optimize, etc.
 
-* Separate subject from body with a blank line
-* Limit the subject line to 50 characters
-* Capitalize the subject line
-* Do not end the subject line with a period
-* Use the imperative mood in the subject line
-* Wrap the body at 72 characters
-* Use the body to explain what and why vs. how
+3. Keep the title short: up to 50 characters and no end period.
+
+Title examples:
+
+  * Add feature for foobar
+  * Drop feature for foobar
+  * Fix bug when foobar is blank
+  * Bump version of foobar parsing library
+  * Make foobar integration script
+  * Start foobar feature flag
+  * Stop foobar feature flag
+  * Refactor foobar for clarity
+  * Reformat foobar to remove whitespace
+  * Optimize foobar for speed and memory
+  * Document foobar protocol
 
 
-My team uses a git commit message convention that helps us read fast and also is parsable by toolchains.
+## Specifics
 
-We agree on a short list of leading active verbs:
+Capitalize the title.
+
+* Right: Add feature
+* Wrong: add feature
+
+Do not end the title with a period:
+
+* Right: Add feature
+* Wrong: Add feature.
+
+Use imperative mood: present tense, active voice, and lead verb.
+
+* Right: Add feature
+* Wrong: Adds feature (this is indicative mood, not imperative mood)
+* Wrong: Added feature (this is past tense, not present tense)
+* Wrong: Adding feature (this lead is a gerund, not a verb)
+* Wrong: Feature added (this is passive voice, not active voice)
+
+Keep the title within 50 characters.
+
+  * This is the git documentation convention.
+
+Use a blank line after the title.
+
+  * This is the same convention as writing an email message.
+
+Wrap the body at 72 characters.
+
+  * This is the same convention as writing an email message.
+
+For more about these see [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
+
+
+
+## Imperatives
+
+My team uses a title convention that helps us read fast, and helps us write tools to parse messages.
+
+We agree on a short list of imperatives i.e. imperative mood, present tense, active voice, verbs:
 
 * Add = Create a capability e.g. feature, test, dependency.
-
-* Cut = Remove a capability e.g. feature, test, dependency.
-
+* Drop = Delete a capability e.g. feature, test, dependency.
 * Fix = Fix an issue e.g. bug, typo, accident, misstatement.
-
-* Bump = Increase the version of something e.g. dependency.
-
-* Make = Change the build process, or tooling, or infra.
-
-* Start = Begin doing something; e.g. create a feature flag.
-
-* Stop = End doing something; e.g. remove a feature flag.
-
-* Refactor = A code change that MUST be just a refactoring.
-
-* Reformat = Refactor of formatting, e.g. omit whitespace.
-
-* Optimize = Refactor of performance, e.g. speed up code.
-
-* Document = Refactor of documentation, e.g. help files.
+* Bump = Increase the version of something e.g. a dependency.
+* Make = Change the build process, or tools, or infrastructure.
+* Start = Begin doing something; e.g. enable a toggle, feature flag, etc.
+* Stop = End doing something; e.g. disable a toggle, feature flag, etc.
+* Refactor = A change that MUST be just refactoring.
+* Reformat = A change that MUST be just formatting, e.g. omit whitespace.
+* Optimize = A change that MUST be just about performance, e.g. speed up code.
+* Document = A change that MUST be only in the documentation, e.g. help files.
 
 
 ## Reasoning
@@ -51,15 +87,30 @@ We secondarily like these verbs above because they're easy to read, easy to type
 If you and your team prefer other words, that's fine too; use what works for you.
 
 
-## Rejecting
+## Reject these formats
 
-We do reject some kinds of git commit message formats. For example, we reject messages that start with a leading tag, or flag, or abbreviation, or link, or tracking number, such as any of these styles:
+We reject some kinds of git commit message formats:
 
 * [bug] ...
 * (release) ...
 * #12345 ...
-* jira://...
+* jira:// ...
 * docs: ...
 
-We do reject the typical commit style of projets such as Angular, Commitizen defaults, etc., because these use a leading tag that is sometimes a word, sometimes an abbreviation, sometimes a plural noun, etc. (such as "feat" for feature, "docs" for document, "perf" for improving performance, etc.)
+We reject the commit style of projets such as Angular, Commitizen defaults, etc.
 
+  * Because these use a leading tag that is sometimes a word, sometimes an abbreviation, sometimes a plural noun, etc. 
+
+  * Examples are using "feat" for feature, "docs" for document, "perf" for performance improvement, etc.
+
+  * Instead we use "Add" for adding a feature, "Document" for documenting help, "Optimize" for performance improvement, etc. 
+
+  * Active verbs are easier to skim, and easier to use for people from other cultures who may be less-comfortable using English.
+
+We reject using an id number or URL in the title.
+
+  * We use fully-qualified URLs in the commit message body.
+
+  * This is because many of our projects use multiple tracking systems, and multiple ways of launching a URL. 
+
+  * We want URL tracking to be easy to use by a wide range of systems, scripts, and teams.
