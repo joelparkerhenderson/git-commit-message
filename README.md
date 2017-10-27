@@ -125,15 +125,15 @@ We reject using an id number or URL in the title.
 
 We sometimes have more than one person working on a commit. For example, we do do pair programming.
 
-To keep track of this, we write a git commit message body that lists each person's email address, and we use the same convention as email headers.
+To keep track of this, we write a git commit message body that lists each person's role and email address. We  one per line because this is easy to parse.
 
 Example:
 
     Add feature foo
 
-    From: alice@eaxmple.com
-    From: bob@example.com
-    From: carol@example.com
+    By: alice@eaxmple.com
+    By: bob@example.com
+    By: carol@example.com
     
 To make this easy in practice, we use a git template that helps fill in this info.
 
@@ -142,15 +142,15 @@ To make this easy in practice, we use a git template that helps fill in this inf
 
 We sometimes connect a git commit to a task tracking system. For example, we use GitHub, Trello, Jira, and many other bug tracking systems and project management software systems.
 
-To keep track of these, we use a git commit message body that lists each URL as a "CC" line, and we use the same convention as email headers.
+To keep track of these, we use a git commit message body that lists each URL, one per line because this is easy to parse.
 
 Example:
 
     Add feature foo
 
-    CC: https://github.com/user/repo/issues/789
-    CC: https://jira.com/tasks/123
-    CC: https://trello.com/projects/456
+    See: https://github.com/user/repo/issues/789
+    See: https://jira.com/tasks/123
+    See: https://trello.com/projects/456
 
 To make this easy in practice, we use a git template that helps fill in this info.
 
@@ -177,4 +177,10 @@ We use some of these to help our teams focus on the most important work.
   * When a commit message says "Importance: high" then it gets priority for code review and also for testing on the continuous integration server.
 
   * When a commit message says "Supersedes", "References", "Obsoletes", then we can easily look up the earlier commits or URLs.
+
+## Related links
+
+* [5 Useful Tips For A Better Commit Message by Caleb Thompson at Thoughtbot](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
+
+* [A Note About Git Commit Messages by tpope at tbaggery](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
