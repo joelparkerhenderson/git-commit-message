@@ -125,15 +125,15 @@ We reject using an id number or URL in the title.
 
 We sometimes have more than one person working on a commit. For example, we do do pair programming.
 
-To keep track of this, we write a git commit message body that lists each person's role and email address. We  one per line because this is easy to parse.
+To keep track of this, we write a git commit message body that lists each person's name and email address. We  one per line because this is easy to parse. We follow [GitHub's co-author guidelines](https://github.com/blog/2496-commit-together-with-co-authors).
 
 Example:
 
     Add feature foo
 
-    By: alice@eaxmple.com
-    By: bob@example.com
-    By: carol@example.com
+    Co-authored-by: Alice <alice@eaxmple.com>
+    Co-authored-by: Bob <bob@example.com>
+    Co-authored-by: Carol <carol@example.com>
     
 To make this easy in practice, we use a git template that helps fill in this info.
 
