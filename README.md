@@ -184,3 +184,4 @@ We use some of these to help our teams focus on the most important work.
 
 * [A Note About Git Commit Messages by tpope at tbaggery](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
+* [How to Write a Git Commit Message by Chris Beams](https://chris.beams.io/posts/git-commit/)
