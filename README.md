@@ -125,22 +125,22 @@ We reject using an id number or URL in the title.
 
 We sometimes have more than one person working on a commit. For example, we do do pair programming.
 
-To keep track of this, we write a git commit message body that lists each person's role and email address. We  one per line because this is easy to parse.
+To keep track of this, we write a git commit message body that lists each person. We use the person's name and the email address. We use one person per line because this is easy to parse.
 
 Example:
 
     Add feature foo
 
-    By: alice@eaxmple.com
-    By: bob@example.com
-    By: carol@example.com
-    
+    By: Alice Adams (alice@eaxmple.com)
+    By: Bob Brown (bob@example.com)
+    By: Carol Curtis (carol@example.com)
+
 To make this easy in practice, we use a git template that helps fill in this info.
 
 
 ## Optional: use task tracking links
 
-We sometimes connect a git commit to a task tracking system. For example, we use GitHub, Trello, Jira, and many other bug tracking systems and project management software systems.
+We sometimes connect a git commit to a task tracking system or web page that explains more. For example, we use GitHub, Trello, Jira, and many other bug tracking systems and project management software systems.
 
 To keep track of these, we use a git commit message body that lists each URL, one per line because this is easy to parse.
 
@@ -150,7 +150,13 @@ Example:
 
     See: https://github.com/user/repo/issues/789
     See: https://jira.com/tasks/123
-    See: https://trello.com/projects/456
+    See: https://wikipedia.com/quicksort
+
+If we want to provide link names, then we use Markdown links, such as:
+
+    See: [Request for help with sign in](https://github.com/user/repo/issues/789)
+    See: [Add feature foo](https://jira.com/tasks/123)
+    See: [Wikipedia Quicksort](https://wikipedia/quicksort)
 
 To make this easy in practice, we use a git template that helps fill in this info.
 
