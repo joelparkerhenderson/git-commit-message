@@ -12,7 +12,4 @@ Style guide:
   * Reason 2: it matches what big popular sites are doing for tech headlines; see Google blogs for examples.
 * Tables
   * We prefer to implement tables using HTML over Markdown.
-  * Reason: We aim for the CommonMark specification and cmark parser, which are widespread industry standards, and these do not provide tables. We hope that CommonMark and cmark will add tables in the future.
-  
-  
-  * 
+  * Reason: We aim for the [CommonMark specification](http://spec.commonmark.org/) and [cmark parser](https://github.com/commonmark/cmark), which are widespread industry standards, and these do not provide tables. We hope that CommonMark and cmark will add tables in the future.
