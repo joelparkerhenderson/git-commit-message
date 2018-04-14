@@ -24,6 +24,7 @@ Title examples of good commit messages:
   * Stop foo feature flag
   * Refactor foo for clarity
   * Reformat foo to remove whitespace
+  * Rephrase foo for nicer language
   * Optimize foo for speed and memory
   * Document foo protocol
 
@@ -79,6 +80,7 @@ We agree on a short list of imperatives i.e. imperative mood, present tense, act
 * Stop = End doing something; e.g. disable a toggle, feature flag, etc.
 * Refactor = A change that MUST be just refactoring.
 * Reformat = A change that MUST be just formatting, e.g. omit whitespace.
+* Rephrase = A change that MUST be just textual, e.g. edit a comment, doc, etc.
 * Optimize = A change that MUST be just about performance, e.g. speed up code.
 * Document = A change that MUST be only in the documentation, e.g. help files.
 
