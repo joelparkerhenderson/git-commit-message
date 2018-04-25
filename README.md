@@ -18,15 +18,45 @@ Title examples of good commit messages:
   * Add feature for foo
   * Drop feature for foo
   * Fix bug when foo is missing
-  * Bump version of foo dependency
-  * Make foo integration script
-  * Start foo feature flag
-  * Stop foo feature flag
+  * Start feature flag
+  * Stop feature flag
   * Refactor foo for clarity
-  * Reformat foo to remove whitespace
-  * Rephrase foo for nicer language
   * Optimize foo for speed and memory
-  * Document foo protocol
+
+
+## Keywords
+
+We use these keywords to maximize readability and versioning:
+
+* Add = Create a capability e.g. feature, test, dependency.
+* Drop = Delete a capability e.g. feature, test, dependency.
+* Fix = Fix an issue e.g. bug, typo, accident, misstatement.
+* Bump = Increase the version of something e.g. a dependency.
+* Make = Change the build process, or tools, or infrastructure.
+* Start = Begin doing something; e.g. enable a toggle, feature flag, etc.
+* Stop = End doing something; e.g. disable a toggle, feature flag, etc.
+* Refactor = A change that MUST be just refactoring.
+* Reformat = A change that MUST be just formatting, e.g. omit whitespace.
+* Rephrase = A change that MUST be just textual, e.g. edit a comment, doc, etc.
+* Optimize = A change that MUST be just about performance, e.g. speed up code.
+* Document = A change that MUST be only in the documentation, e.g. help files.
+
+These keywords work well because:
+
+* They use imperative mood, present tense, active voice, are are verbs.
+* They help our team communicate effectively using shared understanding. 
+* They're easy to read, easy to type, and clear in many cultures.
+
+If you prefer other words, that's fine too; use what works for you.
+
+
+## Keywords with semantic versioning
+
+We recommend the keywords semantic versioning for many of our projects:
+
+* Add = Increment SemVer MINOR version.
+* Drop = Increment SemVer MAJOR version.
+* Fix = Increment SemVer PATCH version.
 
 
 ## Specifics
@@ -62,36 +92,6 @@ Wrap the body at 72 characters.
   * This is the same convention as writing an email message.
 
 For more about these see [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
-
-
-
-## Imperatives
-
-My team uses a title convention that helps us read fast, and helps us write tools to parse messages.
-
-We agree on a short list of imperatives i.e. imperative mood, present tense, active voice, verbs:
-
-* Add = Create a capability e.g. feature, test, dependency.
-* Drop = Delete a capability e.g. feature, test, dependency.
-* Fix = Fix an issue e.g. bug, typo, accident, misstatement.
-* Bump = Increase the version of something e.g. a dependency.
-* Make = Change the build process, or tools, or infrastructure.
-* Start = Begin doing something; e.g. enable a toggle, feature flag, etc.
-* Stop = End doing something; e.g. disable a toggle, feature flag, etc.
-* Refactor = A change that MUST be just refactoring.
-* Reformat = A change that MUST be just formatting, e.g. omit whitespace.
-* Rephrase = A change that MUST be just textual, e.g. edit a comment, doc, etc.
-* Optimize = A change that MUST be just about performance, e.g. speed up code.
-* Document = A change that MUST be only in the documentation, e.g. help files.
-
-
-## Reasoning
-
-We primarily care that our team communicates effectively with our shared understanding. 
-
-We secondarily like these verbs above because they're easy to read, easy to type, and clear in many cultures.
-
-If you and your team prefer other words, that's fine too; use what works for you.
 
 
 ## Reject these formats
