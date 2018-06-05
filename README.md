@@ -48,7 +48,7 @@ We use semantic versioning for many of our projects:
 
 * Add = Increment SemVer MINOR version.
 * Drop = Increment SemVer MAJOR version.
-* Fix = Increment SemVer PATCH version.
+* Fix, Refactor, Reformat, Rephrase, Optimize, etc. = Increment SemVer PATCH version.
 
 
 ## Specifics
