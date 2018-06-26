@@ -148,6 +148,16 @@ Example:
 
 To make this easy in practice, we use a git template that helps fill in this info.
 
+Example if you want to use GitHub automatic detection of multiple authors:
+
+    Add feature foo
+
+    Co-authored-by: Alice Adams <alice@eaxmple.com>
+    Co-authored-by: Bob Brown <bob@example.com>
+    Co-authored-by: Carol Curtis <carol@example.com>
+
+Note: we have an open request for the GitHub team to do automatic detection of both syntaxes above.
+
 
 ## Optional: use task tracking links
 
