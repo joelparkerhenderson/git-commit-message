@@ -2,21 +2,22 @@
 
 To write a great git commit message, use these two guidelines.
 
-1. Begin the commit message with a short summary subject line.
+## Begin with a short summary subject line
 
   * Start with an imperative present active verb: Add, Drop, Fix, Refactor, Optimize, etc.
 
-  * Use up to 50 characters.
+  * Use up to 50 characters; this is the git official preference.
   
   * End without a period.
 
-2. If you want to explain more, then use a longer description. 
 
-  * Add a blank line after the title, then write as much as you want.
+## Continue with a longer description. 
+
+ * If you want to write more, then add a blank line after the title, and write as much as you want.
   
-  * Use up to 72 characters per line.
+ * Use up to 72 characters per line; this is the git official preference.
 
-  * Include any kind of notes, links, examples, etc. as you want.
+ * Include any kind of notes, links, examples, etc. as you want.
   
 
 ## Title examples
