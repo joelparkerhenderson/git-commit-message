@@ -38,22 +38,20 @@ For the longer description lines a.k.a. message body:
  * Include any kind of notes, links, examples, etc. as you want.
   
 
-## Title examples
+## Summary examples
 
-Title examples of good commit messages:
+Summary examples of good commit messages:
 
-  * Add feature for foo
-  * Drop feature for foo
-  * Fix foo when bar is missing
-  * Start flag for foo
-  * Stop flag for foo
-  * Refactor foo for clarity
-  * Optimize foo for speed and memory
+  * Add foo
+  * Drop foo
+  * Fix foo
+  * Refactor foo
+  * Optimize foo
 
 
-## Keywords
+## Summary keywords
 
-We recommend these keywords because they use imperative mood, present tense, active voice, and are verbs:
+We recommend these summary keywords because they use imperative mood, present tense, active voice, and are verbs:
 
 * Add = Create a capability e.g. feature, test, dependency.
 * Drop = Delete a capability e.g. feature, test, dependency.
@@ -73,9 +71,9 @@ We recommend these keywords because they use imperative mood, present tense, act
 
 We use semantic versioning for many of our projects:
 
-* Add = Increment SemVer MINOR version.
-* Drop = Increment SemVer MAJOR version.
-* Fix, Refactor, Reformat, Rephrase, Optimize, etc. = Increment SemVer PATCH version.
+* Add = Increment SemVer MINOR version when there is a new capability.
+* Drop = Increment SemVer MAJOR version when there is an incompatibility.
+* Fix, Bump, Make, Refactor, Optimize, etc. = Increment SemVer PATCH version.
 
 
 ## Specifics
