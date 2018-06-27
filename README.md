@@ -1,21 +1,39 @@
 # Git commit message
 
-To write a great git commit message, use these two guidelines.
+To write a great git commit message, take a look at these guidelines and suggestions.
 
-## Begin with a short summary subject line
+
+## Top priorities
+
+For the best git commit messages:
+
+  * Read these guidelines and suggestions, then discuss them with your teammates.
+
+  * Emphasize clear communication, because commit messages help you and your teammates.
+  
+  * Use a git commit template such as our file [git_commit_template.txt](doc/git_commit_template.txt)
+
+
+## Begin with a short summary
+
+For the short summary line a.k.a. message subject:
 
   * Start with an imperative present active verb: Add, Drop, Fix, Refactor, Optimize, etc.
 
   * Use up to 50 characters; this is the git official preference.
   
-  * End without a period.
+  * Finish without a sentence-ending period.
 
 
-## Continue with a longer description. 
+## Continue with a longer description
+
+For the longer description lines a.k.a. message body:
 
  * If you want to write more, then add a blank line after the title, and write as much as you want.
   
- * Use up to 72 characters per line; this is the git official preference.
+ * Use up to 72 characters per line for typical text for word wrap.
+
+ * Use as many characters as needed for atypical text, such as URLs, terminal output, formatted messages, etc.
 
  * Include any kind of notes, links, examples, etc. as you want.
   
@@ -202,6 +220,7 @@ We use some of these to help our teams focus on the most important work.
 
   * When a commit message says "Supersedes", "References", "Obsoletes", then we can easily look up the earlier commits or URLs.
 
+
 ## Related links
 
 * [5 Useful Tips For A Better Commit Message by Caleb Thompson at Thoughtbot](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
@@ -209,3 +228,7 @@ We use some of these to help our teams focus on the most important work.
 * [A Note About Git Commit Messages by tpope at tbaggery](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
 * [How to Write a Git Commit Message by Chris Beams](https://chris.beams.io/posts/git-commit/)
+
+* [Writing good commit messages by the Erlang OTP team](https://github.com/erlang/otp/wiki/writing-good-commit-messages)
+
+* [On commit messages by Who-T](http://who-t.blogspot.com/2009/12/on-commit-messages.html)
