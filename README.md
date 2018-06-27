@@ -1,15 +1,24 @@
 # Git commit message
 
-How to write a great Git commit message:
+To write a great git commit message, use these two guidelines.
 
-1. Begin the commit message with a short title that summarizes the change.
+## Begin with a short summary subject line
 
-2. Start the title with an imperative present active verb: Add, Fix, Optimize, etc.
+  * Start with an imperative present active verb: Add, Drop, Fix, Refactor, Optimize, etc.
 
-3. Format the title: start with a capital word, use up to 50 characters, and end without a period.
+  * Use up to 50 characters; this is the git official preference.
+  
+  * End without a period.
 
-4. Optionally follow the title by a blank line, then a more thorough description. 
 
+## Continue with a longer description. 
+
+ * If you want to write more, then add a blank line after the title, and write as much as you want.
+  
+ * Use up to 72 characters per line; this is the git official preference.
+
+ * Include any kind of notes, links, examples, etc. as you want.
+  
 
 ## Title examples
 
@@ -17,16 +26,26 @@ Title examples of good commit messages:
 
   * Add feature for foo
   * Drop feature for foo
+<<<<<<< HEAD
   * Fix bug when foo is missing
   * Start feature flag
   * Stop feature flag
+=======
+  * Fix foo when bar is missing
+  * Start flag for foo
+  * Stop flag for foo
+>>>>>>> c080a069bb2b5ca3247c50463a266f9c920a6c1c
   * Refactor foo for clarity
   * Optimize foo for speed and memory
 
 
 ## Keywords
 
+<<<<<<< HEAD
 We use these keywords to maximize readability and versioning:
+=======
+We recommend these keywords because they use imperative mood, present tense, active voice, and are verbs:
+>>>>>>> c080a069bb2b5ca3247c50463a266f9c920a6c1c
 
 * Add = Create a capability e.g. feature, test, dependency.
 * Drop = Delete a capability e.g. feature, test, dependency.
@@ -36,11 +55,16 @@ We use these keywords to maximize readability and versioning:
 * Start = Begin doing something; e.g. enable a toggle, feature flag, etc.
 * Stop = End doing something; e.g. disable a toggle, feature flag, etc.
 * Refactor = A change that MUST be just refactoring.
+<<<<<<< HEAD
 * Reformat = A change that MUST be just format, e.g. indent line, trim space, etc.
+=======
+* Reformat = A change that MUST be just formatting, e.g. omit whitespace.
+>>>>>>> c080a069bb2b5ca3247c50463a266f9c920a6c1c
 * Rephrase = A change that MUST be just textual, e.g. edit a comment, doc, etc.
 * Optimize = A change that MUST be just about performance, e.g. speed up code.
 * Document = A change that MUST be only in the documentation, e.g. help files.
 
+<<<<<<< HEAD
 These keywords work well because:
 
 * They use imperative mood, present tense, active voice, are are verbs.
@@ -57,6 +81,16 @@ We recommend the keywords semantic versioning for many of our projects:
 * Add = Increment SemVer MINOR version.
 * Drop = Increment SemVer MAJOR version.
 * Fix = Increment SemVer PATCH version.
+=======
+
+## Semantic versioning
+
+We use semantic versioning for many of our projects:
+
+* Add = Increment SemVer MINOR version.
+* Drop = Increment SemVer MAJOR version.
+* Fix, Refactor, Reformat, Rephrase, Optimize, etc. = Increment SemVer PATCH version.
+>>>>>>> c080a069bb2b5ca3247c50463a266f9c920a6c1c
 
 
 ## Specifics
@@ -66,7 +100,7 @@ Capitalize the title.
 * Right: Add feature
 * Wrong: add feature
 
-Do not end the title with a period:
+Do not end the title with a period.
 
 * Right: Add feature
 * Wrong: Add feature.
@@ -94,6 +128,18 @@ Wrap the body at 72 characters.
 For more about these see [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 
 
+<<<<<<< HEAD
+=======
+## Reasoning
+
+We primarily care that our team communicates effectively with our shared understanding. 
+
+We secondarily like these verbs above because they're easy to read, easy to type, and clear in many cultures.
+
+If you and your team prefer other words, that's fine too; use what works for you.
+
+
+>>>>>>> c080a069bb2b5ca3247c50463a266f9c920a6c1c
 ## Reject these formats
 
 We reject some kinds of git commit message formats:
@@ -138,6 +184,16 @@ Example:
     By: Carol Curtis (carol@example.com)
 
 To make this easy in practice, we use a git template that helps fill in this info.
+
+Example if you want to use GitHub automatic detection of multiple authors:
+
+    Add feature foo
+
+    Co-authored-by: Alice Adams <alice@eaxmple.com>
+    Co-authored-by: Bob Brown <bob@example.com>
+    Co-authored-by: Carol Curtis <carol@example.com>
+
+Note: we have an open request for the GitHub team to do automatic detection of both syntaxes above.
 
 
 ## Optional: use task tracking links
