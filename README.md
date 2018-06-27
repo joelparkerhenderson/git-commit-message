@@ -11,12 +11,12 @@ For the best git commit messages:
 
   * Emphasize clear communication, because commit messages help you and your teammates.
   
-  * Use a git commit template such as our file [git_commit_template.txt](doc/git_commit_template.txt)
+  * Use a git commit template, such as our [https://github.com/joelparkerhenderson/git_commit_template]
 
 
-## Begin with a short summary
+## Begin with a short summary line
 
-For the short summary line a.k.a. message subject:
+Begine with a short summary line a.k.a. message subject:
 
   * Start with an imperative present active verb: Add, Drop, Fix, Refactor, Optimize, etc.
 
@@ -27,9 +27,9 @@ For the short summary line a.k.a. message subject:
 
 ## Continue with a longer description
 
-For the longer description lines a.k.a. message body:
+Continue with a longer description a.k.a. message body:
 
- * If you want to write more, then add a blank line after the title, and write as much as you want.
+ * Add a blank line after the summary line, then write as much as you want.
   
  * Use up to 72 characters per line for typical text for word wrap.
 
@@ -78,15 +78,20 @@ We use semantic versioning for many of our projects:
 
 ## Specifics
 
-Capitalize the title.
+Capitalize the summary.
 
 * Right: Add feature
 * Wrong: add feature
 
-Do not end the title with a period.
+Finish the summary without a sentence-ending a period.
 
 * Right: Add feature
 * Wrong: Add feature.
+
+If the summary ends with an non-sentence-ending period, use it.
+
+* Right: Add feature for U.S.A.
+* Wrong: Add feature for U.S.A
 
 Use imperative mood: present tense, active voice, and lead verb.
 
@@ -96,19 +101,29 @@ Use imperative mood: present tense, active voice, and lead verb.
 * Wrong: Adding feature (this lead is a gerund, not a verb)
 * Wrong: Feature added (this is passive voice, not active voice)
 
-Keep the title within 50 characters.
+Keep the summary line within 50 characters.
 
-  * This is the git documentation convention.
+  * The purpose is easy readability.
+  * This is the git official convention.
+  * This is the same convention as writing an email message.
+  
+Use a blank line after the summary line.
 
-Use a blank line after the title.
-
+  * The purpose is making the commit message parseable by tools.
+  * This is the git official convention.
   * This is the same convention as writing an email message.
 
-Wrap the body at 72 characters.
+Use up to 72 characters per line for typical text for word wrap.
 
+  * THe purpose is easy readability on typical terminals.
+  * This is the git official convention.
   * This is the same convention as writing an email message.
+  
+Use as many characters as needed for atypical text, such as URLs, terminal output, formatted messages, etc.
 
-For more about these see [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
+  * THe purpose is preserving important formatting.
+  * This is the git official convention.
+  * This is the same convention as writing an email message.
 
 
 ## Reasoning
@@ -122,7 +137,9 @@ If you and your team prefer other words, that's fine too; use what works for you
 
 ## Reject these formats
 
-We reject some kinds of git commit message formats:
+We reject git commit message styles that put meta-information into the summary line.
+
+Example:
 
 * [bug] ...
 * (release) ...
@@ -130,7 +147,7 @@ We reject some kinds of git commit message formats:
 * jira:// ...
 * docs: ...
 
-We reject the commit style of projets such as Angular, Commitizen defaults, etc.
+We reject the git commit message style of projets such as Angular, Commitizen defaults, etc.
 
   * Because these use a leading tag that is sometimes a word, sometimes an abbreviation, sometimes a plural noun, etc. 
 
@@ -140,9 +157,9 @@ We reject the commit style of projets such as Angular, Commitizen defaults, etc.
 
   * Active verbs are easier to skim, and easier to use for people from other cultures who may be less-comfortable using English.
 
-We reject using an id number or URL in the title.
+We reject using any kind of ticket id number in the summary line.
 
-  * We use fully-qualified URLs in the commit message body.
+  * Inteaad, we use fully-qualified URLs in the commit message body.
 
   * This is because many of our projects use multiple tracking systems, and multiple ways of launching a URL. 
 
@@ -155,21 +172,11 @@ We sometimes have more than one person working on a commit. For example, we do d
 
 To keep track of this, we write a git commit message body that lists each person. We use the person's name and the email address. We use one person per line because this is easy to parse.
 
-To make this easy in practice, we use a git template that helps fill in this info.
-
-Example syntax for readability and compatibility:
-
-    By: Alice Adams (alice@eaxmple.com)
-    By: Bob Brown (bob@example.com)
-    By: Carol Curtis (carol@example.com)
-
-Example syntax for specific to GitHub automatic detection:
-
     Co-authored-by: Alice Adams <alice@eaxmple.com>
     Co-authored-by: Bob Brown <bob@example.com>
     Co-authored-by: Carol Curtis <carol@example.com>
 
-Note: we have an open request for the GitHub team to do automatic detection of both syntaxes above.
+To make this easy, we use a [git message template](https://github.com/joelparkerhenderson/git_message_template)
 
 
 ## Optional: use task tracking links
@@ -232,3 +239,4 @@ We use some of these to help our teams focus on the most important work.
 * [On commit messages by Who-T](http://who-t.blogspot.com/2009/12/on-commit-messages.html)
 
 * [Linus Torvalds advice on word wrap](https://github.com/torvalds/linux/pull/17#issuecomment-5661185)
+
