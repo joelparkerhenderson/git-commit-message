@@ -26,26 +26,16 @@ Title examples of good commit messages:
 
   * Add feature for foo
   * Drop feature for foo
-<<<<<<< HEAD
-  * Fix bug when foo is missing
-  * Start feature flag
-  * Stop feature flag
-=======
   * Fix foo when bar is missing
   * Start flag for foo
   * Stop flag for foo
->>>>>>> c080a069bb2b5ca3247c50463a266f9c920a6c1c
   * Refactor foo for clarity
   * Optimize foo for speed and memory
 
 
 ## Keywords
 
-<<<<<<< HEAD
-We use these keywords to maximize readability and versioning:
-=======
 We recommend these keywords because they use imperative mood, present tense, active voice, and are verbs:
->>>>>>> c080a069bb2b5ca3247c50463a266f9c920a6c1c
 
 * Add = Create a capability e.g. feature, test, dependency.
 * Drop = Delete a capability e.g. feature, test, dependency.
@@ -55,33 +45,11 @@ We recommend these keywords because they use imperative mood, present tense, act
 * Start = Begin doing something; e.g. enable a toggle, feature flag, etc.
 * Stop = End doing something; e.g. disable a toggle, feature flag, etc.
 * Refactor = A change that MUST be just refactoring.
-<<<<<<< HEAD
-* Reformat = A change that MUST be just format, e.g. indent line, trim space, etc.
-=======
 * Reformat = A change that MUST be just formatting, e.g. omit whitespace.
->>>>>>> c080a069bb2b5ca3247c50463a266f9c920a6c1c
 * Rephrase = A change that MUST be just textual, e.g. edit a comment, doc, etc.
 * Optimize = A change that MUST be just about performance, e.g. speed up code.
 * Document = A change that MUST be only in the documentation, e.g. help files.
 
-<<<<<<< HEAD
-These keywords work well because:
-
-* They use imperative mood, present tense, active voice, are are verbs.
-* They help our team communicate effectively using shared understanding. 
-* They're easy to read, easy to type, and clear in many cultures.
-
-If you prefer other words, that's fine too; use what works for you.
-
-
-## Keywords with semantic versioning
-
-We recommend the keywords semantic versioning for many of our projects:
-
-* Add = Increment SemVer MINOR version.
-* Drop = Increment SemVer MAJOR version.
-* Fix = Increment SemVer PATCH version.
-=======
 
 ## Semantic versioning
 
@@ -90,7 +58,6 @@ We use semantic versioning for many of our projects:
 * Add = Increment SemVer MINOR version.
 * Drop = Increment SemVer MAJOR version.
 * Fix, Refactor, Reformat, Rephrase, Optimize, etc. = Increment SemVer PATCH version.
->>>>>>> c080a069bb2b5ca3247c50463a266f9c920a6c1c
 
 
 ## Specifics
@@ -128,8 +95,6 @@ Wrap the body at 72 characters.
 For more about these see [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 
 
-<<<<<<< HEAD
-=======
 ## Reasoning
 
 We primarily care that our team communicates effectively with our shared understanding. 
@@ -139,7 +104,6 @@ We secondarily like these verbs above because they're easy to read, easy to type
 If you and your team prefer other words, that's fine too; use what works for you.
 
 
->>>>>>> c080a069bb2b5ca3247c50463a266f9c920a6c1c
 ## Reject these formats
 
 We reject some kinds of git commit message formats:
@@ -175,19 +139,15 @@ We sometimes have more than one person working on a commit. For example, we do d
 
 To keep track of this, we write a git commit message body that lists each person. We use the person's name and the email address. We use one person per line because this is easy to parse.
 
-Example:
+To make this easy in practice, we use a git template that helps fill in this info.
 
-    Add feature foo
+Example syntax for readability and compatibility:
 
     By: Alice Adams (alice@eaxmple.com)
     By: Bob Brown (bob@example.com)
     By: Carol Curtis (carol@example.com)
 
-To make this easy in practice, we use a git template that helps fill in this info.
-
-Example if you want to use GitHub automatic detection of multiple authors:
-
-    Add feature foo
+Example syntax for specific to GitHub automatic detection:
 
     Co-authored-by: Alice Adams <alice@eaxmple.com>
     Co-authored-by: Bob Brown <bob@example.com>
