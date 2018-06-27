@@ -232,3 +232,5 @@ We use some of these to help our teams focus on the most important work.
 * [Writing good commit messages by the Erlang OTP team](https://github.com/erlang/otp/wiki/writing-good-commit-messages)
 
 * [On commit messages by Who-T](http://who-t.blogspot.com/2009/12/on-commit-messages.html)
+
+* [Linus Torvalds advice on word wrap](https://github.com/torvalds/linux/pull/17#issuecomment-5661185)

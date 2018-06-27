@@ -39,4 +39,3 @@ projects that do much worse.
 So I would suggest taking the cue for good log messages from projects
 that have proven that they really can do good log messages. Linux and
 git are both good examples of that.
-
