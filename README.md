@@ -144,8 +144,8 @@ Example:
 * [bug] ...
 * (release) ...
 * #12345 ...
-* jira:// ...
 * docs: ...
+* JIRA-666 #time 1w 2d 4h 30m #comment Task completed ahead of schedule #resolve
 
 We reject the git commit message style of projets such as Angular, Commitizen defaults, etc.
 
@@ -157,13 +157,21 @@ We reject the git commit message style of projets such as Angular, Commitizen de
 
   * Active verbs are easier to skim, and easier to use for people from other cultures who may be less-comfortable using English.
 
-We reject using any kind of ticket id number in the summary line.
+We reject using a ticket id number in the summary line.
 
   * Inteaad, we use fully-qualified URLs in the commit message body.
 
   * This is because many of our projects use multiple tracking systems, and multiple ways of launching a URL. 
 
   * We want URL tracking to be easy to use by a wide range of systems, scripts, and teams.
+
+We reject using a time tracking syntax in the summary line.
+
+  * Instead, if you want time tracking, put the info in the commit message body.
+
+  * This is because your personal time tracking is irrelevant to most other developers.
+
+  * If you must use time tracking, we recommend the format of ISO 8601 and UTC, such as "YYYY-MM-DDTHH:MM:SSZ"
 
 
 ## Optional: use contact email addresses
