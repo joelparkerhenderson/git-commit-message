@@ -161,7 +161,7 @@ We reject the git commit message style of projets such as Angular, Commitizen de
 
 We reject using a ticket id number in the summary line.
 
-  * Inteaad, we use fully-qualified URLs in the commit message body.
+  * Instead, we use fully-qualified URLs in the commit message body.
 
   * This is because many of our projects use multiple tracking systems, and multiple ways of launching a URL. 
 
