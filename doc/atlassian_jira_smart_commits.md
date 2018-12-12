@@ -31,5 +31,7 @@ Example:
     Add feature foo
 
     https://my.atlassian.net/browse/JRA-999
+
+    JRA-999 #time 1w 2d 4h 30m #comment Task completed ahead of schedule #resolve
     
 You can create a [git commit template](https://github.com/joelparkerhenderson/git_commit_template) to make it fast to add Atlassian Jira "smart commits" as you like.
