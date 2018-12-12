@@ -60,13 +60,13 @@ We recommend these summary keywords because they use imperative mood, present te
 * Make = Change the build process, or tools, or infrastructure.
 * Start = Begin doing something; e.g. enable a toggle, feature flag, etc.
 * Stop = End doing something; e.g. disable a toggle, feature flag, etc.
+* Optimize = A change that MUST be just about performance, e.g. speed up code.
+* Document = A change that MUST be only in the documentation, e.g. help files.
 * Refactor = A change that MUST be just refactoring.
 * Reformat = A change that MUST be just formatting, e.g. change spaces.
 * Rearrange = A change that MUST be just arranging, e.g. change layout.
 * Redraw = A change that MUST be just visual, e.g. change a graphic, image, icon, etc.
 * Reword = A change that MUST be just textual, e.g. change a comment, label, doc, etc.
-* Optimize = A change that MUST be just about performance, e.g. speed up code.
-* Document = A change that MUST be only in the documentation, e.g. help files.
 
 
 ## Semantic versioning
