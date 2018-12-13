@@ -238,6 +238,8 @@ We use some of these to help our teams focus on the most important work.
 
 ## Related links
 
+Blog posts about how to write git commit messages:
+
 * [5 Useful Tips For A Better Commit Message by Caleb Thompson at Thoughtbot](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
 
 * [A Note About Git Commit Messages by tpope at tbaggery](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
@@ -250,8 +252,12 @@ We use some of these to help our teams focus on the most important work.
 
 * [Linus Torvalds advice on word wrap](https://github.com/torvalds/linux/pull/17#issuecomment-5661185)
 
+Tools that help with git commit messages:
+
 * [commitlint: a command line tool to lint git commit messages](https://github.com/marionebl/commitlint)
 
 * [husky: git hooks made easy](https://github.com/typicode/husky)
 
 * [commitizen command line utility](https://github.com/commitizen/cz-cli)
+
+* [conventional-changelog: generate changelogs and release notes from a project's commit messages and metadata](https://github.com/conventional-changelog/conventional-changelog)
