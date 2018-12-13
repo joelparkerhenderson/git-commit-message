@@ -250,3 +250,8 @@ We use some of these to help our teams focus on the most important work.
 
 * [Linus Torvalds advice on word wrap](https://github.com/torvalds/linux/pull/17#issuecomment-5661185)
 
+* [commitlint: a command line tool to lint git commit messages](https://github.com/marionebl/commitlint)
+
+* [husky: git hooks made easy](https://github.com/typicode/husky)
+
+* [commitizen command line utility](https://github.com/commitizen/cz-cli)
