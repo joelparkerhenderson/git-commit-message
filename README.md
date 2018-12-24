@@ -16,7 +16,7 @@ For the best git commit messages:
 
 ## Begin with a short summary line
 
-Begine with a short summary line a.k.a. message subject:
+Begin with a short summary line a.k.a. message subject:
 
   * Start with an imperative present active verb: Add, Drop, Fix, Refactor, Optimize, etc.
 
@@ -117,13 +117,13 @@ Use a blank line after the summary line.
 
 Use up to 72 characters per line for typical text for word wrap.
 
-  * THe purpose is easy readability on typical terminals.
+  * The purpose is easy readability on typical terminals.
   * This is the git official convention.
   * This is the same convention as writing an email message.
   
 Use as many characters as needed for atypical text, such as URLs, terminal output, formatted messages, etc.
 
-  * THe purpose is preserving important formatting.
+  * The purpose is preserving important formatting.
   * This is the git official convention.
   * This is the same convention as writing an email message.
 
@@ -149,7 +149,7 @@ Example:
 * docs: ...
 * JIRA-666 #time 1w 2d 4h 30m #comment Task completed ahead of schedule #resolve
 
-We reject the git commit message style of projets such as Angular, Commitizen defaults, etc.
+We reject the git commit message style of projects such as Angular, Commitizen defaults, etc.
 
   * Because these use a leading tag that is sometimes a word, sometimes an abbreviation, sometimes a plural noun, etc. 
 
@@ -161,7 +161,7 @@ We reject the git commit message style of projets such as Angular, Commitizen de
 
 We reject using a ticket id number in the summary line.
 
-  * Inteaad, we use fully-qualified URLs in the commit message body.
+  * Instead, we use fully-qualified URLs in the commit message body.
 
   * This is because many of our projects use multiple tracking systems, and multiple ways of launching a URL. 
 
