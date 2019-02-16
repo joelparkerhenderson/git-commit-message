@@ -9,8 +9,10 @@ Contents:
 * [Continue with a longer description](#continue-with-a-longer-description)
 * [Summary examples](#summary-examples)
 * [Summary keywords](#summary-keywords)
+* [Real-world examples](#real-world-examples)
 * [Use semantic versioning](#use-semantic-versioning)
-* [Specifics](#specifics)
+* [Specifics for right and wrong](#specifics-for-right-and-wrong)
+* [Specifics for length](#specifics-for-length)
 * [Reasoning](#reasoning)
 * [Reject these formats](#reject-these-formats)
 * [Optional: use contact email addresses](#optional-use-contact-email-addresses)
@@ -148,7 +150,7 @@ We use semantic versioning for many of our projects:
   * **Refactor**, **Reformat**, **Rearrange**, **Redraw**, **Reword**: Increment SemVer PATCH version.
 
 
-## Specifics
+## Specifics for right and wrong
 
 Capitalize the summary.
 
@@ -179,6 +181,9 @@ Use imperative mood: present tense, active voice, and lead verb.
   * Wrong: Adding feature (this lead is a gerund, not a verb)
 
   * Wrong: Feature added (this is passive voice, not active voice)
+
+
+## Specifics for length
 
 Keep the summary line within 50 characters.
 
