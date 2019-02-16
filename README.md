@@ -102,6 +102,39 @@ We recommend these summary keywords because they use imperative mood, present te
   * **Reword**: A change that MUST be just textual, e.g. change a comment, label, doc, etc.
 
 
+## Real-world examples
+
+Real-world examples show how we use imperative moode, present tense, active voice, and verbs:
+
+  * **Add** feature for a user to like a post
+
+  * **Drop** feature for a user to like a post
+
+  * **Fix** association between a user and a post
+
+  * **Bump** dependency library to current version
+
+  * **Make** build process use caches for speed
+
+  * **Start** feature flag for a user to like a post
+
+  * **Stop** feature flag for a user to like a post
+
+  * **Optimize** search speed for a user to see posts
+
+  * ***Document** community guidelines for post content
+
+  * **Refactor** user model to new language syntax
+
+  * **Reformat** home page text to use more whitespace
+
+  * **Rearrange** buttons so OK is on the lower right
+
+  * **Redraw** diagram of how our web app works
+
+  * **Reword** home page text to be more welcoming
+
+
 ## Use semantic versioning
 
 We use semantic versioning for many of our projects:
