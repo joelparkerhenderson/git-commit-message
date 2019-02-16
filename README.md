@@ -124,7 +124,7 @@ Real-world examples show how we use imperative moode, present tense, active voic
 
   * **Optimize** search speed for a user to see posts
 
-  * ***Document** community guidelines for post content
+  * **Document** community guidelines for post content
 
   * **Refactor** user model to new language syntax
 
