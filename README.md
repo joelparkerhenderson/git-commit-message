@@ -348,10 +348,10 @@ Blog posts about how to write git commit messages:
 
 Tools that help with git commit messages:
 
-  * [commitlint: a command line tool to lint git commit messages](https://github.com/marionebl/commitlint)
+  * [commitlint: a command line tool to lint git commit messages](https://conventional-changelog.github.io/commitlint/)
 
   * [husky: git hooks made easy](https://github.com/typicode/husky)
 
-  * [commitizen command line utility](https://github.com/commitizen/cz-cli)
+  * [commitizen command line utility](http://commitizen.github.io/cz-cli/)
 
   * [conventional-changelog: generate changelogs and release notes from a project's commit messages and metadata](https://github.com/conventional-changelog/conventional-changelog)
