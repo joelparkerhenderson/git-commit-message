@@ -29,7 +29,7 @@ For the best git commit messages:
 
   * Emphasize clear communication, because commit messages help you and your teammates.
   
-  * Use a git commit template, such as ours [here](https://github.com/joelparkerhenderson/git_commit_template)
+  * Use a git commit template, such as ours [here][git commit template].
 
 
 ## Begin with a short summary line
@@ -280,7 +280,7 @@ To keep track of this, we write a git commit message body that lists each person
     Co-authored-by: Bob Brown <bob@example.com>
     Co-authored-by: Carol Curtis <carol@example.com>
 
-To make this easy, we use a [git message template](https://github.com/joelparkerhenderson/git_message_template)
+To make this easy, we use a [git commit template].
 
 
 ## Optional: use task tracking links
@@ -355,3 +355,5 @@ Tools that help with git commit messages:
   * [commitizen command line utility](https://github.com/commitizen/cz-cli)
 
   * [conventional-changelog: generate changelogs and release notes from a project's commit messages and metadata](https://github.com/conventional-changelog/conventional-changelog)
+
+  [git commit template]: https://github.com/joelparkerhenderson/git_commit_template
