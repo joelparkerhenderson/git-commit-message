@@ -17,6 +17,7 @@ Contents:
 * [Reject these formats](#reject-these-formats)
 * [Optional: use contact email addresses](#optional-use-contact-email-addresses)
 * [Optional: use task tracking links](#optional-use-task-tracking-links)
+* [Optional: use resource tracking metrics](#optional-use-resource-tracking-metrics)
 * [Optional: use keywords, importance, references, etc.](#optional-use-keywords-importance-references-etc)
 * [Related links](#related-links)
 
@@ -287,7 +288,7 @@ To make this easy, we use a [git commit template].
 
 We sometimes connect a git commit to a task tracking system or web page that explains more. For example, we use GitHub, Trello, Jira, and many other bug tracking systems and project management software systems.
 
-To keep track of these, we use a git commit message body that lists each URL, one per line because this is easy to parse.
+To keep track of these, we use a git commit message body that lists each URL, one per line, because this is easy to parse.
 
 Example:
 
@@ -304,6 +305,21 @@ If we want to provide link names, then we use Markdown links, such as:
     See: [Wikipedia Quicksort](https://wikipedia/quicksort)
 
 To make this easy in practice, we use a git template that helps fill in this info.
+
+
+## Optional: use resource tracking metrics
+
+We sometimes connect a git commit to a resource tracking system or metrics scripts. For example, we work on some projects where the project managers must keep track of work hours spent on a commit, or story point estimates per feature branch, or cost of hiring a developer to fix a bug.
+
+To keep track o these, we use a git commit message body that lists each item, one per line, because this is easy to parse.
+
+Example:
+
+    Add feature foo
+
+    Time: 7 staff hours
+    Cost: $700
+    Points: 7
 
 
 ## Optional: use keywords, importance, references, etc.
