@@ -107,7 +107,7 @@ We recommend these summary keywords because they use imperative mood, present te
 
 ## Real-world examples
 
-Real-world examples show how we use imperative moode, present tense, active voice, and verbs:
+Real-world examples show how we use imperative mood, present tense, active voice, and verbs:
 
   * **Add** feature for a user to like a post
 
