@@ -210,7 +210,7 @@ Use up to 72 characters per line for typical text for word wrap.
 
   * This is the same convention as writing an email message.
   
-Use as many characters as needed for atypical text, such as URLs, terminal output, formatted messages, etc.
+Use as many characters as needed for atypical text, such as URLs, output, formatted messages, etc.
 
   * The purpose is preserving important formatting.
 
