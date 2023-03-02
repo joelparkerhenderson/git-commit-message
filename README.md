@@ -106,8 +106,8 @@ We recommend these summary keywords because they use imperative mood, present te
 
   * **Revise**: A change that MUST be just a revising patch e.g. a change, an alteration, a correction, etc.
 
-  * **Refit/Refresh/Renew/Reload**: A change that MUST be just a path e.g. update test data, API keys, etc.
-
+  * **Refit/Refresh/Renew/Reload**: A change that MUST be just a patch e.g. update test data, API keys, etc.
+c
   
 ## Real-world examples
 
