@@ -94,17 +94,21 @@ We recommend these summary keywords because they use imperative mood, present te
 
   * **Document**: A change that MUST be only in the documentation, e.g. help files.
 
-  * **Refactor**: A change that MUST be just refactoring.
+  * **Refactor**: A change that MUST be just a refactoring patch
 
-  * **Reformat**: A change that MUST be just formatting, e.g. change spaces.
+  * **Reformat**: A change that MUST be just a formatting path, e.g. change spaces.
 
-  * **Rearrange**: A change that MUST be just arranging, e.g. change layout.
+  * **Rearrange**: A change that MUST be just an arranging patch, e.g. change layout.
 
-  * **Redraw**: A change that MUST be just visual, e.g. change a graphic, image, icon, etc.
+  * **Redraw**: A change that MUST be just a drawing patch, e.g. change a graphic, image, icon, etc.
 
-  * **Reword**: A change that MUST be just textual, e.g. change a comment, label, doc, etc.
+  * **Reword**: A change that MUST be just a woring patch, e.g. change a comment, label, doc, etc.
 
+  * **Revise**: A change that MUST be just a revising patch e.g. a change, an alteration, a correction, etc.
 
+  * **Refit/Refresh/Renew/Reload**: A change that MUST be just a path e.g. update test data, API keys, etc.
+
+  
 ## Real-world examples
 
 Real-world examples show how we use imperative mood, present tense, active voice, and verbs:
@@ -136,6 +140,8 @@ Real-world examples show how we use imperative mood, present tense, active voice
   * **Redraw** diagram of how our web app works
 
   * **Reword** home page text to be more welcoming
+  
+  * **Revise** link to update it to the new URL
 
 
 ## Use semantic versioning
