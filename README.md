@@ -317,7 +317,7 @@ To make this easy in practice, we use a git template that helps fill in this inf
 
 We sometimes connect a git commit to a resource tracking system or metrics scripts. For example, we work on some projects where the project managers must keep track of work hours spent on a commit, or story point estimates per feature branch, or cost of hiring a developer to fix a bug.
 
-To keep track o these, we use a git commit message body that lists each item, one per line, because this is easy to parse.
+To keep track of these, we use a git commit message body that lists each item, one per line, because this is easy to parse.
 
 Example:
 
