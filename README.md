@@ -102,12 +102,12 @@ We recommend these summary keywords because they use imperative mood, present te
 
   * **Redraw**: A change that MUST be just a drawing patch, e.g. change a graphic, image, icon, etc.
 
-  * **Reword**: A change that MUST be just a woring patch, e.g. change a comment, label, doc, etc.
+  * **Reword**: A change that MUST be just a wording patch, e.g. change a comment, label, doc, etc.
 
   * **Revise**: A change that MUST be just a revising patch e.g. a change, an alteration, a correction, etc.
 
   * **Refit/Refresh/Renew/Reload**: A change that MUST be just a patch e.g. update test data, API keys, etc.
-c
+
   
 ## Real-world examples
 
