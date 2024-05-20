@@ -4,22 +4,22 @@ To write a great git commit message, take a look at these guidelines and suggest
 
 Contents:
 
-* [Top priorities](#top-priorities)
-* [Begin with a short summary line](#begin-with-a-short-summary-line)
-* [Continue with a longer description](#continue-with-a-longer-description)
-* [Summary examples](#summary-examples)
-* [Summary keywords](#summary-keywords)
-* [Real-world examples](#real-world-examples)
-* [Use semantic versioning](#use-semantic-versioning)
-* [Specifics for right and wrong](#specifics-for-right-and-wrong)
-* [Specifics for length](#specifics-for-length)
-* [Reasoning](#reasoning)
-* [Reject these formats](#reject-these-formats)
-* [Optional: use contact email addresses](#optional-use-contact-email-addresses)
-* [Optional: use task tracking links](#optional-use-task-tracking-links)
-* [Optional: use resource tracking metrics](#optional-use-resource-tracking-metrics)
-* [Optional: use keywords, importance, references, etc.](#optional-use-keywords-importance-references-etc)
-* [Related links](#related-links)
+- [Top priorities](#top-priorities)
+- [Begin with a short summary line](#begin-with-a-short-summary-line)
+- [Continue with a longer description](#continue-with-a-longer-description)
+- [Summary examples](#summary-examples)
+- [Summary keywords](#summary-keywords)
+- [Real-world examples](#real-world-examples)
+- [Use semantic versioning](#use-semantic-versioning)
+- [Specifics for right and wrong](#specifics-for-right-and-wrong)
+- [Specifics for length](#specifics-for-length)
+- [Reasoning](#reasoning)
+- [Reject these formats](#reject-these-formats)
+- [Optional: use contact email addresses](#optional-use-contact-email-addresses)
+- [Optional: use task tracking links](#optional-use-task-tracking-links)
+- [Optional: use resource tracking metrics](#optional-use-resource-tracking-metrics)
+- [Optional: use keywords, importance, references, etc.](#optional-use-keywords-importance-references-etc)
+- [Related links](#related-links)
 
 
 ## Top priorities
@@ -367,6 +367,8 @@ Blog posts about how to write git commit messages:
   * [On commit messages by Who-T](http://who-t.blogspot.com/2009/12/on-commit-messages.html)
 
   * [Linus Torvalds advice on word wrap](https://github.com/torvalds/linux/pull/17#issuecomment-5661185)
+
+  * [Writing commit messages by Simon Tatham](https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/commit-messages/)
 
 Tools that help with git commit messages:
 
