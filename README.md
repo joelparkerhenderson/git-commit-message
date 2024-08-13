@@ -96,7 +96,7 @@ We recommend these summary keywords because they use imperative mood, present te
 
   * **Refactor**: A change that MUST be just a refactoring patch
 
-  * **Reformat**: A change that MUST be just a formatting path, e.g. change spaces.
+  * **Reformat**: A change that MUST be just a formatting patch, e.g. change spaces.
 
   * **Rearrange**: A change that MUST be just an arranging patch, e.g. change layout.
 
