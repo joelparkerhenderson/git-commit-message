@@ -108,7 +108,14 @@ We recommend these summary keywords because they use imperative mood, present te
 
   * **Refit/Refresh/Renew/Reload**: A change that MUST be just a patch e.g. update test data, API keys, etc.
 
-  
+We recommend these summary keywords for things that don't fit into the above categories:
+
+  * **Major**: Anything that causes a major version increase.
+
+  * **Minor**: Anything that causes a minor version increase.
+
+  * **Patch**: Anything that causes a patch version increase.
+
 ## Real-world examples
 
 Real-world examples show how we use imperative mood, present tense, active voice, and verbs:
@@ -119,7 +126,7 @@ Real-world examples show how we use imperative mood, present tense, active voice
 
   * **Fix** association between a user and a post
 
-  * **Bump** dependency library to current version
+  * **Update** dependency library to current version
 
   * **Make** build process use caches for speed
 
@@ -143,6 +150,13 @@ Real-world examples show how we use imperative mood, present tense, active voice
   
   * **Revise** link to update it to the new URL
 
+Real-world examples for things that don't fit into the above categories:
+
+  * **Major** overhaul of our API from version 1 to 2
+
+  * **Minor** improvement of our API from version 1.1 to 1.2
+
+  * **Patch** our API from version 1.1.1 to 1.1.2
 
 ## Use semantic versioning
 
@@ -152,7 +166,7 @@ We use semantic versioning for many of our projects:
 
   * **Drop**, **Stop**: Increment SemVer MAJOR version when there is an incompatibility.
 
-  * **Fix**, **Bump**, **Make**, **Optimize**, **Document**: Increment SemVer PATCH version.
+  * **Fix**, **Update**, **Make**, **Optimize**, **Document**: Increment SemVer PATCH version.
 
   * **Refactor**, **Reformat**, **Rearrange**, **Redraw**, **Reword**: Increment SemVer PATCH version.
 
